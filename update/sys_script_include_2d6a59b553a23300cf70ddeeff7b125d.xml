@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_testbranchrepo.testscript</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>testscript</name>
+        <script><![CDATA[var testscript = Class.create();
+testscript.prototype = {
+    initialize: function() {
+    },
+
+    type: 'testscript'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-10 14:28:41</sys_created_on>
+        <sys_id>2d6a59b553a23300cf70ddeeff7b125d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>testscript</sys_name>
+        <sys_package display_value="testbranchrepo" source="sn_testbranchrepo">3b0a993553a23300cf70ddeeff7b1257</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="testbranchrepo">3b0a993553a23300cf70ddeeff7b1257</sys_scope>
+        <sys_update_name>sys_script_include_2d6a59b553a23300cf70ddeeff7b125d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-10 14:28:41</sys_updated_on>
+    </sys_script_include>
+</record_update>
